@@ -67,7 +67,7 @@ class LecturaArchivo {
                 String linea = entrada.nextLine();
 
                 ArrayList<String> lineaPartes = new ArrayList<>(
-                        Arrays.asList(linea.split(" ; ")));
+                        Arrays.asList(linea.split(";")));
                 
                 UsuarioMovie usuario = new UsuarioMovie(lineaPartes.get(1),
                         lineaPartes.get(2));
